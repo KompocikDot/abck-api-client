@@ -1,0 +1,6 @@
+{
+    "use_proxy": true,
+    "solver_domain": "http://18.159.210.32:6789/",
+    "page_to_bot": "https://sklep.sizeer.com/",
+    "validator_domain": "https://sklep.sizeer.com/gDbC8EWub/Y2Yi/K/oER3x9AKQQoVc/azuaQV0h9Gw1/JGYDCm02CA/UHEEC2/kgaQQB"
+}
