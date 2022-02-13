@@ -5,7 +5,7 @@ from api_tester import Solver
 def main():
     """Runs concurrent threads"""
     threads = []
-    for item_id in range(1, 10):
+    for item_id in range(1, 30):
         threads.append(KThread(target=Solver(item_id).run))
         threads[-1].start()
 

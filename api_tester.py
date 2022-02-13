@@ -72,8 +72,7 @@ class Solver:
             solver_resp = self.standard_sess.post(self.solver_domain, json={
                 "domain": self.page_to_bot,
                 "oldCookie": self.abck
-            })
-            solver_resp = solver_resp.json()
+            }).json()
 
             temp_cookie = self.s_validator.post(self.validator, json={
                 "sensor_data": solver_resp["sensor"]
